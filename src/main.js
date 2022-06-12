@@ -10,3 +10,4 @@ async function getDegrees(url) {
       )
   }
   
+getDegrees("./src/degrees.json");
