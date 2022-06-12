@@ -3,6 +3,11 @@
   height: fit-content;
 }
 
+.container {
+  display: flex;
+  width: 100%;
+}
+
 section {
   display: grid;
   background-color: rgba(0, 0, 0, 0.8);
@@ -57,4 +62,13 @@ a {
 
 a:hover {
   background-color: #ec522c;
+}
+
+.button {
+  width: 100%;
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 2rem;
 }
