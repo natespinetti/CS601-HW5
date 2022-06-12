@@ -1,38 +1,47 @@
 {
-    "data": [
-      {
-        "degrees": {
-          "bachelors": {
-            "data": {
-              "type": "Bachelors of Science in Graphic Design",
-              "institution": "Johnson & Wales University",
-              "date": "2020",
-              "gpa": "3.89",
-              "honors": "Summa Cum Laude",
-              "age": "20"
-            }
-          },
-          "gradcertificate": {
-            "data": {
-              "type": "Web Application Development Graduate Certificate",
-              "institution": "Boston University MET",
-              "date": "Expected Early 2023",
-              "gpa": "N/A",
-              "honors": "N/A",
-              "age": "23"
-            }
-          },
-          "masters": {
-            "data": {
-              "type": "Masters of Science in Computer Information Systems Concentration in Web Application Development",
-              "institution": "Boston University MET",
-              "date": "Expected 2026",
-              "gpa": "N/A",
-              "honors": "N/A",
-              "age": "26"
-            }
+  "data": [
+    {
+      "degrees": {
+        "bachelors": {
+          "data": {
+            "type": "Bachelors of Science in Graphic Design",
+            "institution": "Johnson & Wales University",
+            "date": "2020",
+            "gpa": "3.89",
+            "honors": "Summa Cum Laude",
+            "age": "20",
+            "img": "https://raw.githubusercontent.com/natespinetti/CS601-HW5/main/img/jwu.jpg",
+            "logo": "https://raw.githubusercontent.com/natespinetti/CS601-HW5/main/img/jwulogo.jpg",
+            "website": "https://www.jwu.edu/academics/majors-and-programs/graphic-design-bs.html"
+          }
+        },
+        "gradcertificate": {
+          "data": {
+            "type": "Web Application Development Graduate Certificate",
+            "institution": "Boston University MET",
+            "date": "early 2023",
+            "gpa": "N/A",
+            "honors": "N/A",
+            "age": "23",
+            "img": "https://raw.githubusercontent.com/natespinetti/CS601-HW5/main/img/boston1.jpg",
+            "logo": "https://raw.githubusercontent.com/natespinetti/CS601-HW5/main/img/bumet.jpg",
+            "website": "https://www.bu.edu/online/programs/certificate-programs/web-application-development/"
+          }
+        },
+        "masters": {
+          "data": {
+            "type": "Masters of Science in Computer Information Systems Concentration in Web Application Development",
+            "institution": "Boston University MET",
+            "date": "2026",
+            "gpa": "N/A",
+            "honors": "N/A",
+            "age": "26",
+            "img": "https://raw.githubusercontent.com/natespinetti/CS601-HW5/main/img/boston2.jpg",
+            "logo": "https://raw.githubusercontent.com/natespinetti/CS601-HW5/main/img/bumet.jpg",
+            "website": "https://www.bu.edu/online/programs/graduate-programs/computer-information-systems-masters-degree/web-application-development/"
           }
         }
       }
-    ]
-  }
+    }
+  ]
+}
