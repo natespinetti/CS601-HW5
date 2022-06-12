@@ -27,9 +27,8 @@ section {
   border-radius: 50px;
   background-size: cover;
   height: 300px;
-  margin-bottom: 2rem;
   width: 75%;
-  margin: auto auto 1rem;
+  margin: auto auto 2rem;
 }
 
 .line1 {
