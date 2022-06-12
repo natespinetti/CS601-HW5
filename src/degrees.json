@@ -1,0 +1,38 @@
+{
+    "data": [
+      {
+        "degrees": {
+          "bachelors": {
+            "data": {
+              "type": "Bachelors of Science in Graphic Design",
+              "institution": "Johnson & Wales University",
+              "date": "2020",
+              "gpa": "3.89",
+              "honors": "Summa Cum Laude",
+              "age": "20"
+            }
+          },
+          "graduate certificate": {
+            "data": {
+              "type": "Web Application Development Graduate Certificate",
+              "institution": "Boston University MET",
+              "date": "Expected Early 2023",
+              "gpa": "N/A",
+              "honors": "N/A",
+              "age": "23"
+            }
+          },
+          "masters": {
+            "data": {
+              "type": "Masters of Science in Computer Information Systems Concentration in Web Application Development",
+              "institution": "Boston University MET",
+              "date": "Expected 2026",
+              "gpa": "N/A",
+              "honors": "N/A",
+              "age": "26"
+            }
+          }
+        }
+      }
+    ]
+  }
