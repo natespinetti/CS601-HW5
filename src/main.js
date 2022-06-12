@@ -1,12 +1,16 @@
 async function getDegrees(url) {
-  await fetch(url)
-    .then((response) => response.json())
+  try {
+    await fetch(url)
+      .then((response) => response.json())
 
-    .then((data) => {
-      getDegreeData(data.data[0].degrees.bachelors.data);
-      getDegreeData(data.data[0].degrees.gradcertificate.data);
-      getDegreeData(data.data[0].degrees.masters.data);
-    });
+      .then((data) => {
+        getDegreeData(data.data[0].degrees.bachelors.data);
+        getDegreeData(data.data[0].degrees.gradcertificate.data);
+        getDegreeData(data.data[0].degrees.masters.data);
+      });
+  } catch (err) {
+    console.log(err);
+  }
 }
 
 let getDegreeData = (obj) => {
