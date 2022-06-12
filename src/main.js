@@ -34,8 +34,8 @@ let getDegreeData = (obj) => {
   logo.src = `${obj.logo}`;
 
   if (obj.gpa === "N/A" && obj.honors === "N/A") {
-    line1.textContent = `My next degree will be a ${obj.type} from ${obj.institution}, I expect to finish in ${obj.date}.`;
-    line2.textContent = `I expect to finish at the age of ${obj.age}.`;
+    line1.textContent = `My next program will be a ${obj.type} from ${obj.institution}, I expect to finish in ${obj.date}.`;
+    line2.textContent = `I hope to finish at the age of ${obj.age}.`;
   } else {
     line1.textContent = `My first degree was a ${obj.type} from ${obj.institution} in ${obj.date}.`;
     line2.textContent = `I had a GPA of ${obj.gpa}, graduating as ${obj.honors} at the age of ${obj.age}.`;
